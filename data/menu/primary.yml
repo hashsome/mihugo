@@ -1,0 +1,36 @@
+links:
+  - title: Home
+    url: /
+  - title: Products
+    url: /products
+    links:
+      - title: Knurling Tools
+        url: /products/knurling-tools
+        links:
+          - title: Manual Knurling Tools
+            url: /products/knurling-tools/manual
+          - title: Pneumatic Knurling Tools
+            url: /products/knurling-tools/pneumatic
+          - title: Hydraulic Knurling Tools
+            url: /products/knurling-tools/hydraulic
+      - title: Tool Holders
+        url: /products/tool-holders
+        links:
+          - title: Straight Tool Holders
+            url: /products/tool-holders/straight
+          - title: Offset Tool Holders
+            url: /products/tool-holders/offset
+      - title: Leadscrews
+        url: /products/leadscrews
+      - title: Gears
+        url: /products/gears
+  - title: Services
+    url: /services
+  - title: Industries
+    url: /industries
+  - title: Blogs
+    url: /blogs
+  - title: Contact
+    url: /contact
+  - title: FAQ
+    url: /faq

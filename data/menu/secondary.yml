@@ -1,0 +1,14 @@
+links:
+  - title: Home
+    url: /
+  - title: Products
+    url: /products
+  - title: Services
+    url: /services
+  - title: Blogs
+    url: /blogs
+  - title: Contact
+    url: /contact
+  - title: FAQ
+    url: /faq
+  

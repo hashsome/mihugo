@@ -1,0 +1,7 @@
+{{- if not (partial "func/HasHero" .) -}}
+  {{- if and .Title (ne .Params.displayTitle false) -}}
+    <header class="heading" {{- partial "func/SetAnim.html" (dict "element" "heading") }}>
+      <h1 {{- if and site.Params.search.enable site.Params.search.sort }} data-pagefind-sort="heading"{{ end }}>{{ partial "func/PrepareHTML.html" .Title }}</h1>
+    </header>
+  {{- end -}}
+{{- end -}}
